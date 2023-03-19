@@ -29,3 +29,7 @@ save(self, name, name2): saves the model's weights to two files with the given n
 
 ## 3] Training Execution:
 This code seems to be training a centralized deep Q-learning agent in a custom environment using the OpenAI Gym interface. The environment is reset at the start of each episode and the agent chooses actions based on its policy. The environment is stepped through using the chosen actions, and the resulting observations, rewards, and termination/truncation flags are recorded. The agent remembers the experience and updates its policy using random experiences from its memory. The training loop continues until either the environment terminates or is truncated. Finally, the trained agent is saved to a file.
+
+## Additional Information:
+The utils.py file contains the implementation of the Intelligent Drive Car Following Model which is called into the main code. It also contains a few other helper functions.
+
